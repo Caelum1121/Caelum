@@ -308,16 +308,39 @@
               </a>
 
             </div>
-            <h2 class="experience-sub-title project-title">E-commerce Ticket Web</h2>
-              <li>Frontend: React, Redux, Material-UI</li>
-              <li>Backend: Node.js, Express, MongoDB</li>
-              <li>Features:</li>
-              <li>Allows users to purchase tickets for events</li>
-              <li>Included a shopping cart and discission forum with User, Admin management system</li>
+            <h2 class="experience-sub-title project-title">E-commerce Ticket Application</h2>
+          
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://cosc3060-2024-final-project-team-genius.onrender.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- Project2 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <a class="portfolio-link" href="#" onclick="openModal('portfolioModal2')">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img
+                    src="./assets/project-2.png"
+                    alt="Project 2"
+                    class="project-img"
+                />
+              </a>
+
+            </div>
+            <h2 class="experience-sub-title project-title">Business Website for Etong</h2>
+          
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://e-tong.com'"
               >
                 Live Demo
               </button>
@@ -374,22 +397,35 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2023 Caelum Chang. All Rights Reserved.</p>
     </footer>
     <br>
     <!-- Modal -->
     <div id="portfolioModal1" class="custom-modal">
       <div class="modal-content">
         <span class="close-button" onclick="closeModal('portfolioModal1')">&times;</span>
-        <h2>Project Title</h2>
-        <p>Here is a description of the project. You can talk about the technologies used, the challenges faced, and the solutions implemented.</p>
+        <h2>E-commerce Ticket Application</h2>
+        <p>Included a shopping cart and discission forum with User, Admin management system. </p>
         <ul>
-          <li><strong>Client:</strong> Client Name</li>
-          <li><strong>Category:</strong> Project Category</li>
+          <li><strong>Fontend:</strong> Bootstrap, Material-UI</li>
+          <li><strong>Backend:</strong> Node.js, Express, MongoDB</li>
+          <li><strong>Date:</strong> June 2024</li>
+        </ul>
+        <span class="modal-link" target="_blank" onclick="closeModal('portfolioModal1')">Close</a>
+      </div>
+    </div>
+
+    <div id="portfolioModal2" class="custom-modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="closeModal('portfolioModal2')">&times;</span>
+        <h2>Business Website for Etong</h2>
+        <p>Included a contact form to collect user's data and show up information.</p>
+        <ul>
+          <li><strong>Fontend:</strong> Bootstrap, Material-UI</li>
+          <li><strong>Backend:</strong> Node.js, Express, MongoDB</li>
           <li><strong>Date:</strong> October 2024</li>
         </ul>
-        <p>Additional details can be added here. Feel free to include features, highlights, or a link to the project.</p>
-        <a href="https://example.com" class="modal-link" target="_blank">Visit Project</a>
+        <span class="modal-link" target="_blank" onclick="closeModal('portfolioModal2')">Close</a>
       </div>
     </div>
     <script src="script.js"></script>
